@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanStyle - Modern Fashion Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="main-header">
+        <h1>UrbanStyle</h1>
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart (<span id="cartCount">0</span>)</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero">
+            <h2>New Season Collection</h2>
+            <p>Discover modern fashion for everyday life</p>
+        </section>
+
+        <section class="featured-products">
+            <h3>Featured Items</h3>
+            <div class="product-grid" id="productContainer">
+                <!-- Products loaded dynamically via JS -->
+            </div>
+        </section>
+
+        <article class="newsletter">
+            <h4>Subscribe for Updates</h4>
+            <form id="newsletterForm">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </article>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <p>&copy; 2025 UrbanStyle. All rights reserved.</p>
+        <address>
+            Contact: <a href="mailto:info@urbanstyle.com">info@urbanstyle.com</a>
+        </address>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
